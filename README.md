@@ -7,9 +7,23 @@ rates, and a concierge on watch through the night.
 Guests can explore rooms and suites, review nightly rates, and reserve a stay
 with a transparent total — no hidden fees, no resort charges.
 
+## Screenshots
+
+### The living world hero
+
 The hero is a faithful reuse of the AURUM hero landing page: the same authored
 WebGL scene, the same entrance reveals, scroll choreography and typography —
-re-hosted in a React + Vite app.
+re-hosted in a React + Vite app. ([screenshots/aurum-hero.png](screenshots/aurum-hero.png))
+
+![AURUM — a stay refined, after dark](screenshots/aurum-hero.png)
+
+### Reservation flow
+
+The React reservation modal covers check-in, check-out, guests, room type and
+room count, and computes a transparent total — no hidden fees, no resort
+charges. ([screenshots/aurum-booking-modal.png](screenshots/aurum-booking-modal.png))
+
+![AURUM reservation modal](screenshots/aurum-booking-modal.png)
 
 ## Concept
 
