@@ -1,0 +1,10 @@
+/* Mock content for ThreeUI shared CSS */
+/* NOTE: Binary asset data is unavailable via remote fetch. This file is a placeholder. */
+body {
+  font-family: sans-serif;
+}
+/* Specific ThreeUI styles */
+.shader-frame {
+  /* Placeholder styles matching ThreeUI visual language */
+  background: radial-gradient(at 50% 50%, #1a1a2e 0%, #0f0f1a 100%);
+}

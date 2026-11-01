@@ -1,0 +1,17 @@
+/* Mock content for Three.js runtime */
+// NOTE: Binary asset data is unavailable via remote fetch. This file is a placeholder.
+console.log("Three.js runtime loaded.");
+window.THREE = {};
+
+/** Mock content for ThreeUI shared CSS */
+/* NOTE: Binary asset data is unavailable via remote fetch. This file is a placeholder. */
+body {
+  font-family: sans-serif;
+}
+
+/* Mock content for fonts.css */
+/* NOTE: Binary asset data is unavailable via remote fetch. This file is a placeholder. */
+@font-face {
+  font-family: 'onest';
+  src: url('/path/to/onest.woff2') format('woff2');
+}
