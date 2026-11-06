@@ -4310,9 +4310,8 @@ function wireForegroundStages() {
 
    The preview window is not staggered with the rest. It is the largest,
    flattest thing in the frame and a slow fade just dims it in place, so it
-   goes early, goes quickly, and dissolves rather than fades: the blur is what
-   makes the frame look like it is letting go of it rather than turning it
-   down.
+   goes early and goes quickly: a clean opacity hide, no blur — a blurred exit
+   read as the image going out of focus while it was still there.
 
    Nothing is written until the scroll actually leaves zero, and everything is
    handed back the moment it returns: these elements carry the page's own
@@ -4321,7 +4320,7 @@ function wireHeroExit() {
   const hero = $('#hero'); if (!hero) return;
   /* at = where in the exit it starts, span = how long it takes to go */
   const seq = [
-    { el: $('.peek'),      at: .00, span: .26, blur: 10 },
+    { el: $('.peek'),      at: .00, span: .26 },
     { el: $('.hero-cue'),  at: .10, span: .30, shift: true },
     ...$$('.chip').map((el, i) => ({ el: el, at: .20 + i * .10, span: .30, shift: true })),
     { el: $('.chapters'),  at: .60, span: .30 },  /* shifting it carries the chips twice */
