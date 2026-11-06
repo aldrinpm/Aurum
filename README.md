@@ -66,6 +66,14 @@ is honoured by the original code untouched.
 * Three.js runtime inlined via `?raw`
 * Onest font + live WebGL assets under `public/secret-pathways-assets/`
 
+## Live Demo
+
+**🌐 [AURUM Landing Page](https://aldrinpm.github.io/Aurum/)**
+
+Experience the live reservation page — a single-page application featuring a WebGL-powered hero scene, room exploration, and transparent booking flow.
+
+---
+
 ## Develop
 
 ```bash
