@@ -1,4 +1,6 @@
-import hotel1 from "../assets/images/hotel1.jpg";
+// Hotel image for hero preview
+// The image should be placed in public/secret-pathways-assets/generated/
+// or imported as an asset - using direct path reference
 
 export const HERO_MARKUP = `
 <section class="hero" id="hero" data-cam="0">
@@ -32,7 +34,7 @@ export const HERO_MARKUP = `
   <a class="peek" href="#pathways" data-view="3" data-rv="fade" data-cursor aria-label="Preview: A suite, before you arrive">
     <!-- data-frame, or the live view is blitted over the whole anchor and
          runs on down behind the caption instead of stopping at the frame -->
-    <span class="peek-fr" data-frame style="background:linear-gradient(180deg, rgba(3,6,9,.04) 24%, rgba(3,6,9,.48) 100%), url('${hotel1}') center / cover no-repeat;"></span>
+    <span class="peek-fr" data-frame style="background:linear-gradient(180deg, rgba(3,6,9,.04) 24%, rgba(3,6,9,.48) 100%), url('secret-pathways-assets/generated/aurum-approach.webp') center / cover no-repeat;"></span>
     <span class="peek-play"><svg viewBox="0 0 22 22" fill="none"><path d="M8 5.6 16.4 11 8 16.4z" fill="#dfe7e0"/></svg></span>
     <span class="peek-cap"><i>A suite, before you arrive</i></span>
   </a>
